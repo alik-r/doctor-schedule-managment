@@ -41,10 +41,12 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
+    "http://locahost:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1:3000",
+    "http://locahost:3000",
 ]
 
 INSTALLED_APPS = [
